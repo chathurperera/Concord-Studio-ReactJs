@@ -5,10 +5,10 @@ function HeroSection() {
   return (
     <section className="max-w-[1450px] px-[50px] mx-auto">
       <div className="pt-56 pb-12 ">
-        <span className="text-6xl leading-[74px] text-[#172734]">
+        <span className="text-4xl md:text-6xl md:leading-[74px] text-[#172734]">
           Design studio with a fixed fee.
         </span>
-        <p className="text-6xl text-[#8B9399] leading-[74px]">
+        <p className="text-4xl md:text-6xl text-[#8B9399] md:leading-[74px]">
           We replace unreliable freelancers and expensive agencies for one flat
           monthly fee.
         </p>

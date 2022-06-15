@@ -1,4 +1,5 @@
 import React from 'react'
+import CredibilitySection from '../components/CredibilitySection'
 import Header from '../components/Header'
 import HeroSection from '../components/HeroSection'
 
@@ -7,6 +8,7 @@ function Home() {
     <main>
         <Header />
         <HeroSection />
+        <CredibilitySection />
     </main>
   )
 }
