@@ -3,8 +3,8 @@ import "./header.scss";
 import logo from "../assets/625452457cc77f7f28839dd9_logo.svg";
 function Header() {
   return (
-    <header>
-      <nav className="nav my-0 mx-auto flex items-center justify-between">
+    <header className="max-w-[1450px] mx-auto">
+      <nav className="nav px-[65px]  my-0 mx-auto flex items-center justify-between">
         <div className="flex items-center gap-1.5 py-[20px] ">
           <img src={logo} alt="logo" />
           <p className="logo text-[#5C6871] font-medium hidden md:block">Concord Studio®</p>
