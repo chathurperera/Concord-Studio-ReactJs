@@ -1,0 +1,13 @@
+@import "../mixins.scss";
+
+.nav {
+  @include section-max-width;
+  &-btn {
+    width: 120px;
+    text-align: center;
+    &:hover {
+      transform: scale(1.05);
+      display: inline-block;
+    }
+  }
+}
