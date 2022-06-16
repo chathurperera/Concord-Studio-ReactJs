@@ -6,8 +6,8 @@ import claender from "../assets/claender.png";
 
 export const HowItWorksSection = () => {
   return (
-    <section className="how-it-works max-w-[1450px] px-[50px] mx-auto bg-[#172734] ">
-      <div className="pt-24 pb-24 md:grid grid-cols-12">
+    <section className="how-it-works  bg-[#172734] ">
+      <div className="pt-24 pb-24 max-w-[1450px] px-[50px] mx-auto lg:block grid grid-cols-12">
         <div className="text-white text-[26px]  col-span-4">
           How does it work?
           <br />
@@ -15,7 +15,7 @@ export const HowItWorksSection = () => {
             Simple, unlimited design for a fixed monthly fee.
           </span>
         </div>
-        <div className="col-span-8 pl-[150px]">
+        <div className="col-span-8 pl-[150px] lg:pl-[0px] lg:pt-[40px]">
           <div className="bg-[#ffffff1a] rounded-[32px] py-[15px] px-8 flex items-center mb-[16px] hover:scale-[1.01] duration-[200ms]">
             <div className="flex-[0_0_auto]">
               <img

@@ -14,8 +14,8 @@ import company12 from "../assets/6251910b46ecbea4cbeffefa_Group 282.png";
 
 function CredibilitySection() {
   return (
-    <section className="max-w-[1450px] px-[50px] mx-auto bg-[#F1F2F2] mt-[-192px]">
-      <div className="pt-[256px] pb-[96px]  md:grid grid-cols-12">
+    <section className="   bg-[#F1F2F2] mt-[-192px]">
+      <div className="max-w-[1450px] mx-auto px-[50px] pt-[256px] pb-[96px] lg:block grid grid-cols-12">
         <div className="col-span-4">
           <p className="text-[#172734] text-2xl">Who do we work with?</p>
           <p className="text-[#8B9399] text-2xl">

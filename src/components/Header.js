@@ -7,8 +7,8 @@ function Header() {
       <nav className="nav px-[65px]  my-0 mx-auto flex items-center justify-between">
         <div className="flex items-center gap-1.5 py-[20px] ">
           <img src={logo} alt="logo" />
-          <p className="logo text-[#5C6871] font-medium hidden md:block">Concord Studio®</p>
-          <p className="logo text-[#939BA0] hidden md:block">Digital agency, reinvented</p>
+          <p className="logo text-[#5C6871] font-medium  md:hidden">Concord Studio®</p>
+          <p className="logo text-[#939BA0]  md:hidden">Digital agency, reinvented</p>
         </div>
         <a
           href="#getstarted"
