@@ -12,7 +12,7 @@ function Header() {
         </div>
         <a
           href="#getstarted"
-          className="nav-btn bg-[#06c] rounded-[20px] text-[16px] text-white py-1.5 px-3.5 font-normal"
+          className="nav-btn bg-[#06c] rounded-[20px] text-[16px] text-white py-1.5 px-3.5 font-normal duration-[200ms]"
         >
           Get started
         </a>
