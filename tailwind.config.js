@@ -10,7 +10,7 @@ module.exports = {
       "xl":{'max': '1020px'},
       "lg":{'max': '992px'},
       "md":{'max': '768px'},
-      "sm":{'max': '432px'},
+      "sm":{'max': '478px'},
     }
   },
   plugins: [],
