@@ -9,7 +9,7 @@ export const HowWeWorkSection = () => {
   const [expand, setExpand] = useState(null);
   return (
     <section className="bg-[#f1f2f2]">
-      <div className="max-w-[1450px] mx-auto px-[50px]">
+      <div className="max-w-[1450px] pb-[18rem] mx-auto px-[50px]">
         <div className="pt-[6rem] pb-[18px] lg:block grid grid-cols-12">
           <div className="text-[#172734] text-[26px]  col-span-4">
             How we work?
@@ -84,7 +84,7 @@ export const HowWeWorkSection = () => {
             </div>
           </div>
         </div>
-        <div className="pt-[6em] lg:block grid grid-cols-12">
+        <div className="pt-[6em]  lg:block grid grid-cols-12">
           <div className="col-span-4"></div>
           <div className="col-span-8 ">
             <DropDown
