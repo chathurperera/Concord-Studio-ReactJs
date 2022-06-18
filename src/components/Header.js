@@ -3,7 +3,7 @@ import "./header.scss";
 import logo from "../assets/625452457cc77f7f28839dd9_logo.svg";
 function Header() {
   return (
-    <header className="max-w-[1450px] mx-auto">
+    <header className="max-w-[1450px] mx-auto fixed left-0 top-0 right-0 bottom-[auto] z-[999] backdrop-blur-[12px] bg-[#ffffffd4]">
       <nav className="nav px-[65px]  my-0 mx-auto flex items-center justify-between">
         <div className="flex items-center gap-1.5 py-[20px] ">
           <img src={logo} alt="logo" />
